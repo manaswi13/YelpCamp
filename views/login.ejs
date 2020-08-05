@@ -1,0 +1,22 @@
+<%- include("partials/header") %>
+
+
+<div class="container">
+  <div class="jumbotron">
+    <center class="login_form">
+    <div class="login_form_css">
+      <h1>LOGIN</h1>
+      <form action="/login" method="POST">
+        <label><h5>Username</h5></label>
+        <input type="text" name="username" placeholder="Username"><br>
+        <label><h5>Password</h5></label>
+        <input type="password" name="password" placeholder="Password"><br>
+        <button class="btn btn-primary" type="submit">Login</button>
+      </form>
+    </div>
+    
+  </center>
+  </div>
+</div>
+
+<%- include("partials/footer") %>
